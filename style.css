@@ -1,0 +1,195 @@
+html{
+    box-sizing: border-box;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+}
+
+body{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),linear-gradient(
+        110deg
+        , #f93d66, #6d47d9);
+        background-attachment: fixed;
+        width: 1210px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.menu-list{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 10%;
+}
+.menu-list li{
+    list-style: none;
+    background-color: #ffc600;
+    text-align: center;
+    font-size: x-large ;
+    padding: 10px 20px;
+    width: 100%;
+}
+  /* .site-intro{
+    grid-area: hero;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 0%;
+    min-height: 400px;
+    background: white url(images/taco.png);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     justify-content: space-between;
+}  
+.over-img h1{
+    background-color: #ffc600 ;
+    color: black;
+    font-size: xx-large;
+    padding: 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -1;   
+} 
+.over-img p{
+    background-color: #ffc600 ;
+    font-size: large;
+    padding: 5px;
+    font-weight: bolder;
+    text-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+    display: inline;
+}
+.over-side-img{
+    display: flex;
+}
+.side-img{
+    text-align: end;
+} */
+.intro-part{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-part img{
+    margin-top: 30px ;
+    width: 850px;
+    height: 400px;
+    margin-left: 38px;
+}
+.snacks{
+    margin-top: 10px;
+    margin-left: 3% ;
+    width: 100%;
+    font-family: sans-serif;
+}
+.tacos{
+    
+    background-color:#ffc600 ;
+    text-align: center;
+    margin-top: 26px;
+    height: 185px;
+    width: 345px;
+    display: grid;
+    grid-template-rows:repeat(2,1fr) ;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+.tacos h1{
+    font-size:xx-large ;
+    display: inline;
+}
+.tacos p{
+    font-size: larger;
+    padding-bottom: 20px;
+}
+.kumbchia{
+    background-color:#ffc600 ;
+    text-align: center;
+    height: 185px;
+    margin-top: 7%;
+    display: grid;
+    grid-template-rows:repeat(2,1fr) ;
+    grid-row-gap: 0px;
+    align-items: center;
+}
+.kumbchia h1{
+    font-size:xx-large ;
+    display: block;
+}
+.kumbchia p{
+    font-size: larger;
+    padding-bottom: 20px;
+}
+.catagories{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    
+    margin-left: 35px;
+    margin-right: 40px;
+    margin-top: 4%;
+}
+.catagorie{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 282px;
+    height: 150px;
+}
+.catagorie p{
+    font-size: larger;
+}
+.icon-color{
+    color: tomato;
+    font-size: xx-large;
+}
+.ruti{
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+    height: auto;
+}
+.ruti img{
+    width: 100%;
+
+}
+.ruti h1{
+    font-size: x-large;
+}
+button{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+.last-part{
+    margin-left: 3%;
+}
+.last-part h1:before, .last-part h1:after {
+    display: block;
+    content: '';
+    height: 10px;
+    background: linear-gradient(#ffc600, transparent);
+}
+.last-part h1{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    grid-column-gap: 15px;
+}
+.last-part-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+.last-part-img img{
+    width: 100%;
+}
